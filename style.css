@@ -26,6 +26,10 @@ h3{
   font-size: 2rem;
 }
 
+h4{
+  font-size: 1.3rem;
+}
+
 p{
   font-size: 1.5rem;
 }
@@ -42,14 +46,14 @@ header{
   width: 80%;
 }
 
-.flex_new{
-  display: flex;
-}
-
 .new{
-  padding-top: 70px;
+  padding-top: 100px;
   /* width: 90%; */
   margin: auto;
+}
+
+.flex_new{
+  display: flex;
 }
 
 .newitem{
@@ -68,10 +72,15 @@ header{
 
 main{
   display: flex;
+  margin-top: 100px;
 }
 
 .product{
   flex-basis: 80%;
+}
+
+.product h3{
+  margin-left: 10%;
 }
 
 .flex_product{
@@ -80,8 +89,8 @@ main{
 }
 
 .box{
-  width: 38%;
-  margin: 6%;
+  width: 34%;
+  margin: 8%;
   text-align: center;
 }
 
@@ -94,3 +103,38 @@ main{
   width: 100%;
 }
 
+.side{
+  flex-basis: 20%;
+  margin-top: 12px;
+}
+
+.side h3{
+  text-align: center;
+}
+
+.recommended{
+  width: 100%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.pic_recommended{
+  width: 10vw;
+}
+
+.recommended:hover{
+  background-color: #666;
+  color: #fff;
+}
+
+footer{
+  text-align: right;
+  margin-top: 40px;
+  padding-top: 50px;
+  background-color: #000;
+  color: #fff;
+}
+
+.copyright{
+  text-align: center;
+}
