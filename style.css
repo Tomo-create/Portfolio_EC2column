@@ -46,8 +46,38 @@ header{
   width: 80%;
 }
 
-.new{
+.news{
   padding-top: 100px;
+}
+
+.news h2{
+  text-align: left;
+  font-size: 2rem;
+  background-color: #d1d1d1;
+  width: 8rem;
+  padding: 0 2rem;
+}
+
+ul{
+  list-style: none;
+  background-color: #d1d1d1;
+  padding: 2px 20px;
+  font-size: 1.5rem;
+}
+
+li{
+  background-color: #fff;
+  padding: 1px 0;
+  border: solid 1px #d1d1d1;
+}
+
+li:hover{
+  background-color: #666;
+  color: #fff;
+}
+
+.newarrivals{
+  padding-top: 50px;
   /* width: 90%; */
   margin: auto;
 }
@@ -66,7 +96,7 @@ header{
   color: #fff;
 }
 
-.newitem img{
+.pic_newitem{
   width: 90%;
 }
 
