@@ -61,13 +61,13 @@ header{
 ul{
   list-style: none;
   background-color: #d1d1d1;
-  padding: 2px 20px;
+  padding: 6px 20px;
   font-size: 1.5rem;
 }
 
 li{
   background-color: #fff;
-  padding: 1px 0;
+  padding: 3px 0;
   border: solid 1px #d1d1d1;
 }
 
