@@ -48,6 +48,8 @@ header{
 
 .news{
   padding-top: 100px;
+  width: 80%;
+  margin: auto;
 }
 
 .news h2{
@@ -120,7 +122,7 @@ main{
 
 .box{
   width: 34%;
-  margin: 8%;
+  margin: 3% 8%;
   text-align: center;
 }
 
@@ -160,11 +162,91 @@ main{
 footer{
   text-align: right;
   margin-top: 40px;
-  padding-top: 50px;
+  padding-top: 40px;
   background-color: #000;
   color: #fff;
 }
 
 .copyright{
   text-align: center;
+}
+
+address{
+  font-size: 1.4rem;
+  font-style: normal;
+}
+
+@media screen and (min-width:640px) and (max-width:1023px) {
+  #wrap{
+    width: 90%;
+  }
+
+  .news{
+    width: 90%;
+  }
+
+  main{
+    display: initial;
+  }
+
+  .product{
+    padding-top: 50px;
+  }
+
+  .side h3{
+    font-size: 2.8rem;
+  }
+
+  .flex_recommended{
+    display: flex;
+    flex-flow:wrap;
+  }
+
+  .recommended{
+    width: 23%;
+    margin: 3% 5%;
+  }
+
+}
+
+@media screen and (max-width:639px) {
+  #wrap{
+    width: 100%;
+  }
+
+  .news{
+    width: 100%;
+  }
+
+  .flex_new{
+  flex-flow:wrap;
+  }
+
+  .newitem{
+    width: 34%;
+    margin: 3% 8%;
+  }
+
+  main{
+    display: initial;
+  }
+
+  .product{
+    padding-top: 50px;
+  }
+
+  .side h3{
+    font-size: 2.8rem;
+  }
+
+  .flex_recommended{
+    display: flex;
+    flex-flow:wrap;
+  }
+
+  .recommended{
+    width: 23%;
+    margin: 3% 5%;
+  }
+
 }
